@@ -9,9 +9,7 @@ pipenv install django
 ...sh
 pipenv shell
 ...
-
 # start django web project
-
 ...sh
 django-admin startproject webapp
 cd webapp
