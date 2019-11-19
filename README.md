@@ -9,7 +9,16 @@ python -m pip install pipenv --user
 
 ##install django
 ...sh
-pipenv install django
+pipenv install django && python -m pip install django
+
+##install numpy
+...sh
+pipenv shell
+pipenv install numpy && python -m pip install numpy
+
+##ipython
+import numpy as np
+np.__version__
 
 =======
 ## install pipenv
@@ -17,7 +26,17 @@ pipenv install django
 python -m pip install pipenv --user
 ##install django
 ...sh
-pipenv install django
+pipenv install django && python -m pip install django
+
+##install numpy
+...sh
+pipenv shell
+pipenv install numpy && python -m pip install numpy
+
+##ipython
+import numpy as np
+np.__version__
+
 >>>>>>> 4cd9bb0a4e47e78f03ae435fcb0bd86ec542b200
 ## start pipenv
 ...sh
